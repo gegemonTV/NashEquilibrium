@@ -3,7 +3,7 @@ package com.satanbakespancakes;
 import java.io.PrintStream;
 
 public class NashCalculator {
-    public static void Print(int[][] matrix, PrintStream out) {
+    public static void print(int[][] matrix, PrintStream out) {
         for (int[] I : matrix) {
             for (int i = 0; i < matrix[0].length; i++) {
                 out.print(I[i] + "\t");
@@ -12,7 +12,7 @@ public class NashCalculator {
         }
     }
 
-    public static void Print(boolean[][] matrix, PrintStream out) {
+    public static void print(boolean[][] matrix, PrintStream out) {
         for (boolean[] B : matrix) {
             for (int i = 0; i < matrix[0].length; i++) {
                 out.print(B[i] + "\t");
